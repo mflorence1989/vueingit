@@ -68,7 +68,6 @@ h2{
 }
 
 h5{
-
   color: #202020;
   font-size: 0.9rem;
   margin: .5rem 0 1rem;
