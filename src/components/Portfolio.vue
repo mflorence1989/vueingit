@@ -2,7 +2,6 @@
   <section id="SpecialMenu">
   <div class="container">
     <h5 class="comp-title">Portfolio Projects</h5>
-    
     <div class="row">
       <div class="col-md-4">
         <div class="box">
@@ -39,18 +38,15 @@
           <p>Html Email design. Tested with Litmus.</p>
         </div>
       </div>
-
       <div class="col-md-4">
         <div class="box">
           <div class="box-img-four">
             <div class="price-circle">
               <i class="fab fa-js"></i>
             </div>
-
-
           </div>
           <a href="http://fierce-savannah-42727.herokuapp.com">Community jobs</a>
-<p>Website created for community jobs</p>
+          <p>Website created for community jobs</p>
         </div>
       </div>
 

@@ -21,7 +21,7 @@ export const routes = [
     }
     },
     {
-        path: '/portfolio', components: {
+        path: '/portfolio', name:'portfolio',components: {
         default: Portfolio
     }
     },

@@ -36,6 +36,9 @@ export default {
 text-align:right;
 
 }
+p{
+  font-size: 1.2rem;
+}
 .side-img{
   text-align: left;
   position: relative;
@@ -66,8 +69,7 @@ h4{
 
 }
 strong{
-  font-weight: 700;
-  color: $black;
+
 
 
 }

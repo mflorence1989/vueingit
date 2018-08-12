@@ -6,7 +6,7 @@
 Web developer
 </h5>
 <h1 class="holla">
-<em>M</em>ario Florence
+<strong>M</strong>ario Florence
 </h1>
 </div>
 
@@ -35,22 +35,22 @@ Web developer
   background-size: cover;
   background-position: center;
 
-
-
 }
 .title{
   padding: 200px 0 80px;
   text-align: right;
-
-
-
 }
 h1.holla{
   text-transform: uppercase;
   color: #202020;
-  font-weight: 300;
-  font-size: 9.4rem;
+  font-weight: 400;
+  font-size: 9.3rem;
   font-family: 'Dosis', sans-serif;
+}
+strong{
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  color:white;
 }
 h5.back{
   text-transform: uppercase;
@@ -62,9 +62,7 @@ h5.back{
   margin-bottom: 10px;
   color: #ADADAD;
 }
-em{
-  color:white;
-}
+
 h2.number{
   font-size: 2rem;
   margin-bottom: 20px;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
         <router-view name="header-top"></router-view>
         <transition name="slide" mode="out-in">
           <router-view></router-view>
@@ -11,9 +11,11 @@
 <script>
     import Header from './components/Header.vue';
 
+
     export default {
         components: {
             appHeader: Header
+
         }
     }
 </script>

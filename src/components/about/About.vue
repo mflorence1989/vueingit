@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-view></router-view>
+<h3 @click="navigateToHome" >Mario Florence</h3> 
   <section id="OurStory">
       <div class="container">
       <div class="row">
@@ -12,7 +12,7 @@
       <a href="/contact" class="reserve-btn">Contact</a>
       </div>
       <div class="col-md-6">
-        <!-- <button @click="navigateToHome" class="btn btn-primary">Go to Home</button> -->
+
       <div class="video-img">
       </div>
       </div>
@@ -28,7 +28,7 @@ padding: 100px 0;
 
 p{
   line-height: 2.2;
-  font-size: .9rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -88,7 +88,7 @@ strong{
   margin: 0 auto;
 }
 h5.abouting{
-margin-bottom: 35px;
+margin-bottom: 20px;
 font-size: 1rem;
 }
 </style>

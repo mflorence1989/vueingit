@@ -30,6 +30,9 @@ a{
   text-decoration: none;
   padding: 0px 10px;
 }
+router-link {
+  text-decoration: none;
+}
 .logo{
     display: inline-block;
     color: white;
