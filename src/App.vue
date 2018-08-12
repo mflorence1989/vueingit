@@ -25,7 +25,9 @@
   box-sizing: border-box;
 }
 
-
+i{
+  cursor: pointer;
+}
     .slide-leave-active {
         transition: opacity 1s ease;
         opacity: 0;

@@ -12,8 +12,11 @@ Web developer
 
 <div class="contact-info">
 <div class="container">
-<div class="booking">Philadelphia,Pa</div>
-<h2 class="number">(267) - 982 - 3402</h2>
+  <h2 class="number">mflorence1989@gmail.com
+    <i class="fab fa-linkedin"></i></h2>
+<div class="booking">
+
+</div>
 
     </div>
     </div>

@@ -1,8 +1,13 @@
 <template lang="html">
 <section id="Reviews">
+
 <div class="container">
+  <i class="fa fa-arrow-left" @click="navigateToHome" ></i>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <div class="row">
+
 <div class="col-md-8 side-img">
+
 <div class="side-img">
 
 <img src="https://images.pexels.com/photos/884450/pexels-photo-884450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
@@ -26,6 +31,11 @@
 
 <script>
 export default {
+    methods: {
+        navigateToHome() {
+            this.$router.push({ name: 'home' });
+        }
+    }
 }
 </script>
 

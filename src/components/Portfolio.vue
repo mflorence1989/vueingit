@@ -1,6 +1,8 @@
 <template >
   <section id="SpecialMenu">
+
   <div class="container">
+    <i class="fa fa-arrow-left" @click="navigateToHome" ></i>
     <h5 class="comp-title">Portfolio Projects</h5>
     <div class="row">
       <div class="col-md-4">
@@ -23,7 +25,7 @@
             </div>
           </div>
           <a href="https://crypto-coin-calculator.herokuapp.com/">Bitcoin calculator</a>
-          <p>Bitcoin investment calculator to track investors profits & losses.</p>
+          <p>Bitcoin calculator to track investors profits & losses.</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -50,6 +52,17 @@
         </div>
       </div>
 
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-img-five">
+            <div class="price-circle">
+              <i class="fab fa-js"></i>
+            </div>
+          </div>
+          <a href="http://fierce-savannah-42727.herokuapp.com">Community jobs</a>
+          <p>Website created for community jobs</p>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -60,6 +73,11 @@
 
 <script>
 export default {
+    methods: {
+        navigateToHome() {
+            this.$router.push({ name: 'home' });
+        }
+    }
 }
 </script>
 
@@ -90,8 +108,8 @@ export default {
   background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/3/Screenshot_from_2018-03-27_22-43-09.png");
   background-size: cover;
   background-position: center;
-  position: relative;
-  margin-bottom: 75px;
+  position: inline-block !important;
+  margin-bottom: 50px;
 
 }
 .box-img-two{
@@ -100,8 +118,8 @@ export default {
   background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/4/Screenshot_from_2018-04-09_00-03-01.png");
   background-size: cover;
   background-position: center;
-  position: relative;
-  margin-bottom: 75px;
+  position: inline-block !important;
+  margin-bottom: 50px;
 
 }
 .box-img-three{
@@ -110,8 +128,8 @@ export default {
   background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/5/laster_email.png");
   background-size: cover;
   background-position: center;
-  position: relative;
-  margin-bottom: 75px;
+  position: inline-block !important;
+  margin-bottom: 50px;
 }
 .box-img-four{
   width:100%;
@@ -119,8 +137,8 @@ export default {
   background: url("https://mario-resume-portfolio.s3.us-east-2.amazonaws.com/uploads/portfolio/thumb_image/2/oddgigs.png");
   background-size: cover;
   background-position: center;
-  position: relative;
-  margin-bottom: 75px;
+  position: inline-block !important;
+  margin-bottom: 50px;
 
 }
 .box-img-five{
@@ -129,8 +147,8 @@ export default {
   background: url("https://s8.postimg.cc/xl2fxo2t1/tuition_picture.png");
   background-size: cover;
   background-position: center;
-  position: relative;
-  margin-bottom: 75px;
+  display: flex;
+  margin-bottom: 50px;
 
 }
 .comp-title{
@@ -148,8 +166,9 @@ export default {
   font-family: $displayFont;
   font-size: 2.5rem;
   background: white;
-  height:100px;
-  width:100px;
+  height:50px;
+  background: grey;
+  width:50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
