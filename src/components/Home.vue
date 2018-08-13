@@ -13,7 +13,7 @@ Web developer
 <div class="contact-info">
 <div class="container">
   <h2 class="number">mflorence1989@gmail.com
-    <i class="fab fa-linkedin"></i></h2>
+    <i class="fab fa-linkedin"></i> </h2>
 <div class="booking">
 
 </div>
